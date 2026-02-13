@@ -13,9 +13,14 @@
  */
 
 #page-enrol-index {
-    .customfields-container {display: none;}
-    .teachers {display: none;}
+    .customfields-container {
+        display: none;
+    }
+    .teachers {
+        display: none;
+    }
     .main-inner {
         width: 1000px !important;
     }
 }
+
