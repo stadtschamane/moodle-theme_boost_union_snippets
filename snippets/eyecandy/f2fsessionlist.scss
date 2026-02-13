@@ -12,16 +12,14 @@
  * @license       http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
 .f2fsessionlist {
   --hpadding: 0.75rem;
   --vpadding: 0.5rem;
   --indent: 0.25rem;
-
+  
   width: 100%;
   border-collapse: collapse;
   font-size: 0.85rem;
-
   th {
     padding: var(--vpadding) var(--hpadding);
     border-bottom: 2px solid #dee2e6; // Nur untere Linie dicker
@@ -31,19 +29,21 @@
     font-weight: 600;
     white-space: nowrap;
   }
-
   td {
-    padding: var(--vpadding) 
-             calc(var(--hpadding) + var(--indent)) 
-             var(--vpadding) 
-             var(--hpadding);
+    padding: var(--vpadding)
+      calc(var(--hpadding) + var(--indent)) 
+      var(--vpadding) 
+      var(--hpadding);
     border-bottom: 1px solid #dee2e6; // Nur horizontale Linien
     border-right: 0; // Keine senkrechten Linien
     text-align: left;
   }
-
   tbody tr {
-    &:nth-child(even) { background-color: #f8f9fa; }
-    &:hover { background-color: #f1f3f5; }
+    &:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+    &:hover {
+      background-color: #f1f3f5;
+    }
   }
 }
