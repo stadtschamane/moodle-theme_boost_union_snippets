@@ -1,0 +1,22 @@
+/**
+ * Snippet Title: no round corners addons
+ * Scope:         global
+ * Goal:          eyecandy
+ * Description:   additional round corners are replaced (e.g. in the course format tiles)
+ * Creator:       Robert Sack
+ * Tested on:     moodle 4.3-4.5, Chrome 
+ * Usage note:    use in addition with the boot-union-built-in snippet 'no round corners'
+ *
+ * @copyright     2026 Robert Sack
+ * @author        Robert Sack <robert.sack@gmx.at>
+ * @license       http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+.section.main,
+.form-control {
+border-top-left-radius: 0 !important;
+border-bottom-left-radius: 0 !important;
+border-top-right-radius: 0 !important;
+border-bottom-right-radius: 0 !important;
+border-radius: 0 !important;
+}

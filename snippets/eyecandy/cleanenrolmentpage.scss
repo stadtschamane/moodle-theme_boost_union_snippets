@@ -1,0 +1,21 @@
+/**
+ * Snippet Title: clean enrolment page
+ * Scope:         global
+ * Goal:          eyecandy
+ * Description:   the original enrolmentpage includes all(!) course-customfields. if there are many, there will be a lot of information. so simply hide them all
+ * Creator:       Robert Sack
+ * Tested on:     moodle 4.3-4.5, Chrome 
+ * Usage note:    
+ *
+ * @copyright     2026 Robert Sack
+ * @author        Robert Sack <robert.sack@gmx.at>
+ * @license       http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+#page-enrol-index {
+	.customfields-container {display: none;}
+	.teachers {display: none;}
+	.main-inner {
+		width: 1000px !important;
+	}
+}
