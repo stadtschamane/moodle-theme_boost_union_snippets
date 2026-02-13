@@ -30,7 +30,8 @@
         white-space: nowrap;
     }
     td {
-        padding: var(--vpadding)
+        padding:
+            var(--vpadding)
             calc(var(--hpadding) + var(--indent))
             var(--vpadding)
             var(--hpadding);
@@ -47,3 +48,4 @@
         }
     }
 }
+
